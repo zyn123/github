@@ -1,0 +1,356 @@
+body{
+	margin: 0px;
+	font-family: "微软雅黑";
+	min-width: 980px;
+}
+h1,h2,h3,h4,h5,h6,ul,p,li{
+	list-style: none;
+	/*使用ul和li的时候去掉前面的小圆点*/
+    margin: 0;
+    padding: 0;
+}       /*群组*/
+a{
+	text-decoration: none;
+	color: #4078c0;
+
+}
+.section{
+	padding:80px 0;
+	border-bottom: 1px solid #e5e5e5; 
+}
+.container{
+	  /*text-align: center;*/
+	margin: 0 auto;
+	width: 980px;
+	/*border: 2px solid black;*/
+}
+
+.btn{
+	text-align: center;
+	color: #f5f5f5;
+	padding: 12px 12px;
+	font-size: 18px;
+	border-radius: 6px;
+	/*border: 1px solid white;*/
+
+}
+.aa{
+	text-align: center;
+}
+
+
+
+
+/*最上部header*/
+.header{
+	width: 100%;
+	height: 27px;
+	padding-top: 15px;
+	padding-bottom:15px; 
+	border-bottom:1px solid black;
+	background-color: #f5f5f5;
+}
+
+
+.logo{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+
+}
+.logo:hover{
+	color:#4078c0;
+}
+#search{
+	height:30px;
+	float: left;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	width: 360px;
+	font-size: 12px;
+	color: #ccc;
+	padding-left: 10px;
+	margin-right: 15px;
+
+}
+.header-c{
+	height:28px;
+	line-height: 28px;
+}
+.functionlist{
+	float:left;
+}
+/*后代选择器*/
+.functionlist li{
+	float: left;
+	padding: 0 8px;
+	font-size: 13px;
+	font-weight: bold;
+	cursor:pointer;
+}
+.exp:hover{
+	color:#4078c0;
+}
+.signin,.signup{
+	padding: 6px 12px;
+	float:right;
+	font-size: 13px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	line-height: 20px;
+	margin-top: -5px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.signin{
+	margin-left: 10px;
+	background-image: linear-gradient(#fcfcfc, #eee);
+	color: #333;
+}
+.signup{
+	color: #fff;
+	
+	background-image: linear-gradient(#8add6d, #60b044);
+}
+.upgraded:hover{
+	text-decoration: underline;
+}
+
+
+
+/*中间部分*/
+
+.sub-title{
+	font-size: 42px;
+	text-align: center;
+	font-weight: normal;
+	color: #333;
+}
+
+
+.gh-image{
+	width: 100%;
+	margin: 40px auto ;
+	border-radius: 5px;
+	display: block;
+}
+
+
+/*中间第一部分*/
+.main{
+	background: #202021;
+	border-bottom: none;   
+}
+.signup-form{
+	width:320px;
+	height: 351px;
+	/*border: 1px solid white;*/
+	float: right;
+}
+.main-intro{
+	color: #f5f5f5;
+	/*border:1px solid red;*/
+	width: 620px;
+	float: left;
+}
+.main-c{
+	height:351px;
+}
+.big-title{
+	font-size: 70px;
+	padding-top:10px;
+	margin-top: 15px;
+	font-weight: normal;
+	color: #fff;
+}
+.main-intro p{
+	font-size: 21px;
+	line-height: 1.5;
+	color: #fff;
+}
+.signup-x{
+	width:320px;
+	height: 44px;
+	background: #fafafa;
+	border:1px solid #fff;
+	margin-bottom: 10px;
+	line-height: 44px;
+	/*text-align: center;*/
+	/*margin-left: 10px;*/
+	padding: 10px;
+	border-radius: 6px;
+	color: #333;
+	font-size: 14px;
+}
+.signup-form p{
+	font-size: 13px;
+	line-height: 15px;
+	margin-bottom: 10px;color: #767676;
+	margin-top: 10px;
+	  text-align: center;
+}
+.btn-x{
+	display: inline-block;
+	margin-bottom: 20px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 0 ;
+	padding: 0 77px;
+	background-image: linear-gradient(#8add6d, #60b044);
+  	border-color: #5ca941;
+  	cursor:pointer;
+}
+
+
+
+/*中间的第二部分*/
+.enterprise{
+	background-image: linear-gradient(#202d5f, #614381);
+	overflow: hidden;
+	max-height: 200px;
+	box-shadow: inset 0 10px 20px rgba(0,0,0,0.1);
+}
+.enterprise h2{
+	color: #f5f5f5;
+} 
+.btn-blue{
+	display: inline-block;
+	width: 336px;
+	margin:15px auto 20px; 
+	  background-image: linear-gradient(#45b3f3, #1d6ac8);
+	  /*border-color: #ccc;*/
+	  color: #fff;
+	  cursor:pointer;
+}
+.btn-blue:hover{
+	background: #1d6ac8;
+}
+.enterdepth{
+	width: 100%;
+	height: 30px;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.25);
+	background-image: linear-gradient(transparent, rgba(0,0,0,0.15));
+}
+
+
+/*中间第三部分*/
+.sub-info{
+	font-size: 18px;
+	color: #767676;
+	text-align: center;
+	margin-top: 10px;
+}
+.love{
+	height: 630px;
+}
+.love-reason{
+	width: 450px;
+	height: 210px;
+	padding: 20px 20px 25px;
+	/*border: 1px solid black;*/
+	float: left;
+	text-align: center;
+}
+.love-reason p{
+	color: #5a5a5a;
+	font-size: 13px;
+	font-weight: normal;
+}
+.love-reason h3{
+	color: #333;
+	font-weight: normal;
+}
+.l-img{
+	border:1px solid #e5e5e5;
+	width: 100px;
+	height: 100px;
+	margin: 20px auto 20px; 
+	border-radius: 50%;
+}
+.l-img img{
+	line-height: 100px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+/*后代选择器*/
+
+
+/*中间第四部分*/
+.btn-green{
+	display: inline-block;
+	width: 285px;
+	margin:12px auto;
+	background-image: linear-gradient(#8add6d, #60b044);
+	border-color: #5ca941;
+}
+
+h4{
+	font-size: 21px;
+	font-weight: normal;
+	margin:15px auto; 
+	line-height: 21px;
+	text-align: center;
+}
+/*TODO待优化,浮动的收缩问题*/
+
+
+
+
+
+/*最后footer部分*/
+.footer{
+	height: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #4078c0;
+	font-size: 12px;
+
+}
+.footer ul{
+	/*float: left;*/	
+	margin-right: 10px;
+
+}
+.footer li{
+	font-weight: normal;
+	float: left;
+	margin-left: 10px;
+	cursor:pointer;
+}
+.footerzuo{
+	width: 350px;
+	height: 16px;
+	/*border: 1px solid black;*/
+	float: left;
+	line-height: 16px;
+}
+.footerz1{
+	font-size: 13px;
+	color: #767676
+}
+.footeryou{
+	width: 290px;
+	height: 20px;
+	/*border: 1px solid black;*/
+	float: right;
+/*	margin-right: 0px;
+*/	line-height: 16px;
+}
+.footer img{
+	padding-left: 130px;
+}
+.footgit:hover{
+	text-decoration: underline;
+}
+.ffimg:hover{
+	cursor:pointer;
+}
+
+
+
